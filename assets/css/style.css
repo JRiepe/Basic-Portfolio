@@ -96,9 +96,9 @@ aside {
 /* HTML and Body CSS - for sticky footer */
 html, body {
 
-	margin: 0px;
+	margin: 0 auto; /* Centers whole page dammit */
 	width: 960px;
-	text-align: center;
+	/* text-align: center; */
 	height: 100%;
 	color: #777777;
 	border-width: 1px;
@@ -107,12 +107,13 @@ html, body {
 
 /* Wrapper CSS - to sticky footer */
 .wrapper {
-
+	float: none;
 	background-color: transparent;
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -4em;
+	/* text-align: center; */
+	margin: 0 auto;
 	border-width: 2;
 	border-color: #dddddd;
 }
@@ -153,7 +154,7 @@ input[type=submit] {
 	
 }
 
-/* for Portfolio Pictures */
+/* for Portfolio Pictures Text */
 h2 {
 	position: absolute;
 	color: white;
