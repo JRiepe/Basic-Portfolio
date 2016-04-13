@@ -40,7 +40,7 @@ nav {
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 14px;
-	margin-right: 85; */
+	margin-right: 85;
 	color: #77777;
 
 }
@@ -48,13 +48,14 @@ nav {
 /* Section CSS */
 section {
 	
+	width: 600px;
 	background-color: #ffffff;
 	text-align: left;
 	float: left;
-	/* width: 600;*/
 	padding: 10px;
 	margin: 30px 25px 0px 25px;
-	overflow: auto;
+	/* text-overflow: auto; */
+	/*overflow: auto;*/
 	
 }
 
@@ -169,37 +170,28 @@ h2 {
 	/* @Media Screen Tags */
 
 
-@media screen and (min-width: 980)
+@media screen and (max-width: 980px)
 	{
 		body {
-			width: 960;
+			width: 960px;
 			}
-
-		section {
-			width: 400;
-		}
-		input[type=submit] {
-			width: 380;
-		}
+		
 	}
-@media screen and (max-width: 768)
+@media screen and (max-width: 768px)
 	{
 		body {
-			width: 700;
+			width: 700px;
 			}
-		section {
-			width: 700;
-			}
-
+		
 	}
-@media screen and (max-width: 640)
+@media screen and (max-width: 640px)
 
 	{
 		body {
-			width: 600;
+			width: 550px;
 			}
 		section {
-			width: 400;
+			width: 500;
 			}
 
 	}
