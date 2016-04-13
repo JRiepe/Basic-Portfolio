@@ -35,12 +35,12 @@ header {
 nav {
 
 	position: relative;	
-	float: left;
+	float: right;
 	line-height: 70px;
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 14px;
-	margin-left: 525;
+	margin-right: 85; */
 	color: #77777;
 
 }
@@ -51,11 +51,11 @@ section {
 	background-color: #ffffff;
 	text-align: left;
 	float: left;
-	width: 600;
+	/* width: 600;*/
 	padding: 10px;
 	margin: 30px 25px 0px 25px;
 	overflow: auto;
-	clearfix
+	
 }
 
 img {
@@ -95,10 +95,8 @@ aside {
 
 /* HTML and Body CSS - for sticky footer */
 html, body {
-
+	max-width: 980;
 	margin: 0 auto; /* Centers whole page dammit */
-	width: 960px;
-	/* text-align: center; */
 	height: 100%;
 	color: #777777;
 	border-width: 1px;
@@ -112,7 +110,6 @@ html, body {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	/* text-align: center; */
 	margin: 0 auto;
 	border-width: 2;
 	border-color: #dddddd;
@@ -120,7 +117,7 @@ html, body {
 
 /* Footer CSS - to sticky footer */
 .Footer {
-
+	/* margin: 0 auto; */
 	height: 4em;
 	padding-top: 20px;
 	border-style: solid;
@@ -130,9 +127,9 @@ html, body {
 	background-color: #666666;
 	color: #ffffff;
 	
-	margin: 0 auto;
 	
 }
+	/* for Contact Page */
 
 input[type=submit] {
 
@@ -145,31 +142,65 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* for Portfolio Pictures */
+	/* for Portfolio Pictures */
+
 .image {
 	position: relative;
 	float: left;
 	margin: 10px 40px 10px 40px;
-	/* padding: 5px 50px 5px 50px;*/
+	
 	
 }
 
-/* for Portfolio Pictures Text */
+	/* for Portfolio Pictures Text */
+
 h2 {
 	position: absolute;
 	color: white;
 	background-color: #4aaaa5;
 	width: 150px;
-	
 	bottom: 0px;
    	left: 0;
    	width: 100%;
    	margin: 0 auto;
-   
   	height: 20px;
-
-
 }
 
+	/* @Media Screen Tags */
 
+
+@media screen and (min-width: 980)
+	{
+		body {
+			width: 960;
+			}
+
+		section {
+			width: 400;
+		}
+		input[type=submit] {
+			width: 380;
+		}
+	}
+@media screen and (max-width: 768)
+	{
+		body {
+			width: 700;
+			}
+		section {
+			width: 700;
+			}
+
+	}
+@media screen and (max-width: 640)
+
+	{
+		body {
+			width: 600;
+			}
+		section {
+			width: 400;
+			}
+
+	}
 
