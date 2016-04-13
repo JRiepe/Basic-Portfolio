@@ -141,6 +141,7 @@ input[type=submit] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+
 }
 
 	/* for Portfolio Pictures */
@@ -167,8 +168,11 @@ h2 {
   	height: 20px;
 }
 
-	/* @Media Screen Tags */
+.contactus {
+	width: 100%;
+}
 
+	/* @Media Screen Tags */
 
 @media screen and (max-width: 980px)
 	{
@@ -193,6 +197,6 @@ h2 {
 		section {
 			width: 500;
 			}
-
+		
 	}
 
