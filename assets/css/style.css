@@ -15,7 +15,7 @@ header {
 	background-color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 24px;
-	margin-left: 10px;
+	margin-left: 50px;
 	width: 165px;
 	text-align: center;
 	line-height: 70px;
@@ -48,12 +48,12 @@ nav {
 /* Section CSS */
 section {
 	
-	width: 600px;
+	width: 500px;
 	background-color: #ffffff;
 	text-align: left;
 	float: left;
 	padding: 10px;
-	margin: 30px 25px 0px 25px;
+	margin: 30px 25px 0px 50px;
 	text-overflow: auto;
 	overflow: auto;
 	
@@ -96,13 +96,11 @@ aside {
 }
 
 /* HTML and Body CSS - for sticky footer */
-body {
-	background-image: url("../images/diagonal_fabric.png");
-}
+
 
 html, body {
-	
-	max-width: 980;
+	background-color: #cccccc;
+            	max-width: 980;
 	margin: 0 auto; /* Centers whole page dammit */
 	height: 100%;
 	color: #777777;
@@ -112,19 +110,21 @@ html, body {
 
 /* Wrapper CSS - to sticky footer */
 .wrapper {
+	background-image: url("../images/diagonal_fabric.png");
 	float: none;
 	background-color: transparent;
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto;
-	border-width: 2;
-	border-color: #dddddd;
-}
+	border-style: solid;
+	border-width: 1;
+	border-color: black;
+}              
 
 /* Footer CSS - to sticky footer */
 .Footer {
-	/* margin: 0 auto; */
+	margin: 0 auto;
 	height: 4em;
 	padding-top: 20px;
 	border-style: solid;
@@ -185,15 +185,25 @@ h2 {
 		body {
 			width: 970px;
 			}
-		
+		section {
+			margin: 30px 85px 0px 70px;
+			}	
 	}
 @media screen and (min-width: 720px) and (max-width: 979px)
 	{
 		body {
 			width: 700px;
-
 			}
-		
+	
+		section {
+			margin: 30px 85px 0px 85px;
+			}	
+		aside	{
+			margin: 30px 25px 0px 228px; 
+		}
+		nav 	{
+			margin-right: 50px;
+		}
 	}
 @media screen and (min-width: 560px) and (max-width: 719px)
 
@@ -205,7 +215,13 @@ h2 {
 			width: 500px;
 			margin: 30px 15px 0px 15px;
 			}
-		
+
+		aside	{
+			margin: 30px 25px 0px 175px; 
+		}
+		nav 	{
+			margin-right: 30px;
+		}
 	}
 
 
@@ -216,9 +232,15 @@ h2 {
 			width: 320px;
 			}
 		section {
-			width: 310px;
+			width: 297px;
 			margin: 30px 0px 0px 0px;
 			}
-		
+		aside	{
+			margin: 30px 25px 0px 47px; 
+			}	
+		nav 	{
+			margin-right: 5px;
+			line-height: 22px;
+		}
 	}
 		
