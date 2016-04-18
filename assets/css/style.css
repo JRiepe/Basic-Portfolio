@@ -96,7 +96,12 @@ aside {
 }
 
 /* HTML and Body CSS - for sticky footer */
+body {
+	background-image: url("../images/diagonal_fabric.png");
+}
+
 html, body {
+	
 	max-width: 980;
 	margin: 0 auto; /* Centers whole page dammit */
 	height: 100%;
